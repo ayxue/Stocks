@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trading", "Trading", "{800FE028-D5E9-4DB0-A874-92A1CA85C745}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Qin", "Qin", "{585A2A86-C936-4796-B3A8-34B07B168B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qin.Html", "Qin.Framework\Qin.Html.csproj", "{C1314924-5AC4-4EB6-92B6-DC2D41AD56D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.Data", "Trading.Data\Trading.Data.csproj", "{05E6A24A-A482-499D-B38A-65322ACE4BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.Data.Tests", "Trading.Data.Tests\Trading.Data.Tests.csproj", "{E8055235-438E-4627-B4FC-8387199A9D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qin.Models", "Qin.Models\Qin.Models.csproj", "{081EF9BF-9A90-4584-B814-7616D906AF60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{D65D715C-A14A-405B-8E15-207A0A2D46B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.ApiSite", "Web.ApiSite\Web.ApiSite.csproj", "{2814E78C-BE41-4886-B018-127679432327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1314924-5AC4-4EB6-92B6-DC2D41AD56D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1314924-5AC4-4EB6-92B6-DC2D41AD56D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1314924-5AC4-4EB6-92B6-DC2D41AD56D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1314924-5AC4-4EB6-92B6-DC2D41AD56D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E6A24A-A482-499D-B38A-65322ACE4BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E6A24A-A482-499D-B38A-65322ACE4BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E6A24A-A482-499D-B38A-65322ACE4BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E6A24A-A482-499D-B38A-65322ACE4BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8055235-438E-4627-B4FC-8387199A9D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8055235-438E-4627-B4FC-8387199A9D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8055235-438E-4627-B4FC-8387199A9D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8055235-438E-4627-B4FC-8387199A9D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081EF9BF-9A90-4584-B814-7616D906AF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081EF9BF-9A90-4584-B814-7616D906AF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081EF9BF-9A90-4584-B814-7616D906AF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081EF9BF-9A90-4584-B814-7616D906AF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2814E78C-BE41-4886-B018-127679432327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2814E78C-BE41-4886-B018-127679432327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2814E78C-BE41-4886-B018-127679432327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2814E78C-BE41-4886-B018-127679432327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1314924-5AC4-4EB6-92B6-DC2D41AD56D1} = {585A2A86-C936-4796-B3A8-34B07B168B05}
+		{05E6A24A-A482-499D-B38A-65322ACE4BC7} = {800FE028-D5E9-4DB0-A874-92A1CA85C745}
+		{E8055235-438E-4627-B4FC-8387199A9D88} = {800FE028-D5E9-4DB0-A874-92A1CA85C745}
+		{081EF9BF-9A90-4584-B814-7616D906AF60} = {585A2A86-C936-4796-B3A8-34B07B168B05}
+		{2814E78C-BE41-4886-B018-127679432327} = {D65D715C-A14A-405B-8E15-207A0A2D46B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF3B59E9-0D3D-4E63-8A7F-E80B42101F7C}
+	EndGlobalSection
+EndGlobal
