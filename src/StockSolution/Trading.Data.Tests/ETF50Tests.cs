@@ -8,7 +8,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Trading.Data.Model.RefData;
+using Trading.Model.RefData;
 using Trading.Data.Services.Sina.Model;
 using Trading.Data.Services.Sina.RefData;
 

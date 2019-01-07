@@ -6,7 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Trading.Data.Model.Finance;
+using Trading.Model.Finance;
 
 namespace Trading.Data.Services.Sina.Finance
 {

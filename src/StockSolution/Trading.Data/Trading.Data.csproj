@@ -48,11 +48,6 @@
   <ItemGroup>
     <Compile Include="CnReporsitory.cs" />
     <Compile Include="JsonUtil.cs" />
-    <Compile Include="Model\Finance\PnlTable.cs" />
-    <Compile Include="Model\RefData\EquityStructure.cs" />
-    <Compile Include="Model\RefData\Exchange.cs" />
-    <Compile Include="Model\RefData\Instrument.cs" />
-    <Compile Include="Model\Trade\Price.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Sina\BaseService.cs" />
     <Compile Include="Services\Sina\Finance\PnlService.cs" />
@@ -71,6 +66,10 @@
     <ProjectReference Include="..\Qin.Models\Qin.Models.csproj">
       <Project>{081ef9bf-9a90-4584-b814-7616d906af60}</Project>
       <Name>Qin.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trading.Model\Trading.Model.csproj">
+      <Project>{4a8249e6-25a8-4fb6-b1ea-c002e025653e}</Project>
+      <Name>Trading.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

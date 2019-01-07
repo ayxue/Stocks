@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
 using Newtonsoft.Json;
-using Trading.Data.Model.RefData;
+using Trading.Model.RefData;
 
 namespace Web.ApiSite.Controllers
 {
@@ -32,7 +32,7 @@ namespace Web.ApiSite.Controllers
             var array = new Instrument[1];
             array[0] = new Instrument
             {
-                ID = 123,
+                Id = 123,
                 Name = "asdad"
             };
             return array;

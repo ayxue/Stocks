@@ -5,8 +5,8 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Results;
-using Trading.Data.Model.Finance;
-using Trading.Data.Model.RefData;
+using Trading.Model.Finance;
+using Trading.Model.RefData;
 
 namespace Web.ApiSite.Controllers
 {

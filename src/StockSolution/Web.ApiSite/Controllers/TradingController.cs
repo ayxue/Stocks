@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Trading.Data.Model.Trade;
+using Trading.Model.Trade;
 
 namespace Web.ApiSite.Controllers
 {

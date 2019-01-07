@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Newtonsoft.Json.Linq;
 using Qin.Html;
-using Trading.Data.Model.RefData;
+using Trading.Model.RefData;
 using Trading.Data.Services.Sina.Model;
 
 

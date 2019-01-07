@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Qin.Html;
-using Trading.Data.Model.RefData;
-using Trading.Data.Model.Trade;
+using Trading.Model.RefData;
+using Trading.Model.Trade;
 
 namespace Trading.Data.Services.Sina.Trade
 {

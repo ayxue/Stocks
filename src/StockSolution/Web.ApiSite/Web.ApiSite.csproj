@@ -227,6 +227,10 @@
       <Project>{05e6a24a-a482-499d-b38a-65322ace4bc7}</Project>
       <Name>Trading.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Trading.Model\Trading.Model.csproj">
+      <Project>{4a8249e6-25a8-4fb6-b1ea-c002e025653e}</Project>
+      <Name>Trading.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

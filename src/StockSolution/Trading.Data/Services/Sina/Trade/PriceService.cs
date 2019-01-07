@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Trading.Data.Model.Trade;
+using Trading.Model.Trade;
 
 namespace Trading.Data.Services.Sina.Trade
 {
