@@ -4,25 +4,22 @@
 //using System.Net;
 //using System.Net.Http;
 //using System.Web.Http;
-//using System.Web.Http.Results;
 
 //namespace Web.ApiSite.Controllers
 //{
-//    /// <summary>
-//    /// Finance Data
-//    /// </summary>
-//    [RoutePrefix("api/finance")]
-//    public class FinanceController : ApiController
+//    [RoutePrefix("api/fundamental")]
+//    public class FundamentalController : ApiController
 //    {
 //        /// <summary>
-//        /// 获取利润表
+//        /// 获得某个产品的股本结构历史
 //        /// </summary>
 //        /// <param name="shortSymbol"></param>
 //        /// <returns></returns>
-//        [HttpGet, Route("pnl")]
-//        public PnlTable[] GetPnlTables(string shortSymbol)
+//        [HttpGet, Route("instrument/{shortSymbol}/equity")]
+//        public EquityStructure[] GetEquityStructure(string shortSymbol)
 //        {
-//            return new PnlTable[0];
+//            return new EquityStructure[0];
 //        }
+
 //    }
 //}

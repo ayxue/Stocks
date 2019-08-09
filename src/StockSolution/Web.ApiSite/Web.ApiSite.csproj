@@ -193,11 +193,14 @@
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\FinanceController.cs" />
+    <Compile Include="Controllers\FundamentalController.cs" />
     <Compile Include="Controllers\ReferenceDataController.cs" />
     <Compile Include="Controllers\TradingController.cs" />
+    <Compile Include="Converters\AppConverter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\App.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\JsonDotNetValueProviderFactory.cs" />
   </ItemGroup>
@@ -217,19 +220,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Trading.Data\Trading.Data.csproj">
-      <Project>{05e6a24a-a482-499d-b38a-65322ace4bc7}</Project>
-      <Name>Trading.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Trading.Model\Trading.Model.csproj">
-      <Project>{4a8249e6-25a8-4fb6-b1ea-c002e025653e}</Project>
-      <Name>Trading.Model</Name>
+    <ProjectReference Include="..\Web.Models\Web.Models.csproj">
+      <Project>{91eb6911-2547-4dab-b545-3183ed5871b2}</Project>
+      <Name>Web.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

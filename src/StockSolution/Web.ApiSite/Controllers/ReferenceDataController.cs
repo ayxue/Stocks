@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
 using Newtonsoft.Json;
-using Trading.Model.RefData;
+using Web.ApiSite.Models;
+using Web.Models;
 
 namespace Web.ApiSite.Controllers
 {
@@ -19,20 +20,46 @@ namespace Web.ApiSite.Controllers
     [RoutePrefix("api/ref")]
     public class ReferenceDataController : ApiController
     {
+        [HttpGet, Route("app")]
+        public App GetApp()
+        {
+            return new App
+            {
+                Flow = "Code"
+            };
+        }
+
+
+
         /// <summary>
-        /// 获得所有产品
+        /// Return a list of exchanges
         /// </summary>
-        /// <param name="category">产品分类</param>
-        /// <param name="page">第几页</param>
-        /// <param name="pageSize">每页多少条记录</param>
+        /// <returns></returns>
+        [HttpGet, Route("exchanges")]
+        public Exchange[] GetExchanges()
+        {
+            var array = new Exchange[1];
+            array[0] = new Exchange
+            {
+                Name = "上交所"
+            };
+            return array;
+        }
+
+
+        /// <summary>
+        /// Returns a list of summary information for all instruments and options on the Saxo Trading platform restricted by the access rights of the user.
+        /// The resource serves as the starting point for an application/user who wants to navigate the available universe of instruments and options.Each entry therefore contains further references to instrument details or option roots, where the application can get further information about these entities.
+        /// </summary>
+        /// <param name="assetType">Comma separated list of one or more asset types to search for. E.g. AssetTypes=FxSpot,Stock</param>
         /// <returns></returns>
         [HttpGet, Route("instruments")]
-        public Instrument[] GetInstruments(string category = "", int page = 1, int pageSize = 10000)
+        public Instrument[] GetInstruments(string assetType = "")
         {
             var array = new Instrument[1];
             array[0] = new Instrument
             {
-                Id = 123,
+                Identifier = 123,
                 Name = "asdad"
             };
             return array;
