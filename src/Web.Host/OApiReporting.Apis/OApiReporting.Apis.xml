@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OApiReporting.Apis</name>
+    </assembly>
+    <members>
+        <member name="T:OApiReporting.Apis.Configurations.TestController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OApiReporting.Apis.Configurations.TestController.Get">
+            <summary>
+            GET api/values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OApiReporting.Apis.Configurations.TestController.Get(System.Int32)">
+            <summary>
+            GET api/values/5
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OApiReporting.Apis.Configurations.TestController.Post(System.String)">
+            <summary>
+            POST api/values
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:OApiReporting.Apis.Configurations.TestController.Put(System.Int32,System.String)">
+            <summary>
+            PUT api/values/5
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:OApiReporting.Apis.Configurations.TestController.Delete(System.Int32)">
+            <summary>
+            DELETE api/values/5
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
